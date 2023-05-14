@@ -1,0 +1,23 @@
+﻿C:\Test\Path1\ex1.bat
+가 있을 때
+
+%0    파일 전체 경로   C:\Test\Path1\ex1.bat 
+%~d0  드라이브 명      C: 
+%~p0  경로             \Test\Path1\
+%~n0  파일명           ex1
+%~x0  확장자 명       .bat
+%~dp0 드라이브와 경로  C:\Test\Path1\
+
+%~1         - expands %1 removing any surrounding quotes (")
+%~f1        - expands %1 to a fully qualified path name
+%~d1        - expands %1 to a drive letter only
+%~p1        - expands %1 to a path only
+%~n1        - expands %1 to a file name only
+%~x1        - expands %1 to a file extension only
+%~s1        - expanded path contains short names only
+%~a1        - expands %1 to file attributes
+%~t1        - expands %1 to date/time of file
+%~z1        - expands %1 to size of file
+
+
+http://cplusplus.bordoon.com/cmd_exe_variables.html
